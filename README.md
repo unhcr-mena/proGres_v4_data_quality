@@ -1,6 +1,10 @@
 # data_quality
 
-This repository contains the data and jupyter notebooks used for quality checks on proGres v4 data along with implementation of solutions (validation and/or correction of phone numbers and location spellings). 
+This repository contains jupyter notebooks (and reference data) used for quality checks on registration data of UNHCR's persons of concern (proGres v4) along with implementation of solutions (validation and/or correction of phone numbers and location spellings). 
+
+The current implementation is meant for Egypt, but can be repurposed with minor changes to conduct data quality checks on other operations. 
+
+Notebooks 00 and 01 identify irregularities in the following proGres v4 tables: individual, registration group, address, documents, and specific needs. 
 
 ## Guide for reproducibility:
 
