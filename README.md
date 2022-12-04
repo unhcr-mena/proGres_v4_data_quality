@@ -1,6 +1,6 @@
 # data_quality
 
-This repository contains jupyter notebooks (and reference data) used for quality checks on registration data of UNHCR's persons of concern (proGres v4) along with implementation of solutions (validation and/or correction of phone numbers and location spellings). 
+This repository contains jupyter notebooks (and reference data) that can be used for quality checks on registration data of UNHCR's persons of concern (proGres v4) along with implementation of solutions (validation and/or correction of phone numbers and location spellings). 
 
 The current implementation is meant for Egypt, but can be repurposed with minor changes to conduct data quality checks on other operations. 
 
@@ -8,7 +8,7 @@ Notebooks with prefix 01 identify irregularities in the following proGres v4 tab
 
 ## Guide for reproducibility:
 
-1) Refer to the setup instructions and requirements listed in: 00_DQ_setup_instructions.xlsx and 00_requirements.txt
+1) Refer to the setup instructions and requirements listed in: 00_DQ_setup_instructions.xlsx and 00_requirements.txt to install python version 3.9.7 and      all necessary libraries
 2) To get data quality indicators (irregularities) associated with progres ids, run:
    01_data_quality_checks.ipynb
 3) To get data quality indicators (irregularities) associated with progres ids AND all the tables needed as input for the data quality PowerBi dashboard, run: 
