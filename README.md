@@ -11,8 +11,8 @@ This repository contains the data and jupyter notebooks used for quality checks 
    01_tables_needed_for_PowerBi_dashboard > 01_data_quality_checks_including_all_tables_needed_for_dashboard.ipynb
 4) Official admin names:
    01_get_official_admin_names_ocha_and_proGres_v4 > 04_Egypt_Syria_OCHA_vs_proGresv4_locations.ipynb
-   *** OCHA names needed for input are available in the 'data' directory
-5) Phone number validation demo:
+   \n *** OCHA names needed for input are available in the 'data' directory
+5) Phone number validation:
    03_phone_number_validation > 03_phonenumber_validator.ipynb
-6) Location / Address spelling correction demo: 
+6) Location / Address spelling correction: 
    02_spelling_correction_for_location_names > 02_location_spelling_correction.ipynb
